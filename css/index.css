@@ -1,0 +1,404 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	height: 100%;
+}
+p{
+	margin:0px auto;
+	text-align: center;
+	width:115px;
+	height:50px;
+	color: #555;
+}
+span{
+	font-size: 18px;
+}
+.top{
+	margin: auto;
+	width: 600px;
+	height:405px;
+}
+.top .jinr{
+	background: url(../images/0.PNG)no-repeat;
+	width: 300px;
+	height:32px;
+	float: left;
+}
+.top .mingr{
+	width: 300px;
+	height:32px;
+	float:right;
+}
+.top .jinr p{
+	width:200px;
+	height:50px;
+	color: #333;
+	margin: 5px 0px 0px 50px;
+}
+.top .mingr p{
+	width:200px;
+	height:50px;
+	color: #333;
+	margin: 5px 0px 0px 0px;
+}
+.top .bg1{
+	margin: auto;
+	width: 600px;
+	height:370px;
+	
+	background: url(../images/1.jpg)no-repeat;	
+}
+.nav{
+	margin: auto;
+	width: 600px;
+	height:450px;
+}
+.nav .bg2{
+	margin: auto;
+	width: 600px;
+	height:200px;
+	text-align: center;
+}
+.nav .dh{
+	margin: auto;
+	width: 600px;
+	height:250px;	
+}
+.nav .dh table{
+	margin: auto;
+	width=600 ;
+	border=0 ;
+}
+.nav .dh table tr{
+	margin: auto;
+	height=125;
+	text-align:center; 
+	align-items: auto;
+	width:600px;
+}
+.nav .dh table tr td {
+	
+	height=125;
+	text-align:center; 
+	align-items: auto;
+	width:80px;
+}
+.jingx{
+	margin:0px auto;
+	text-align: center;
+	width: 600px;
+	height:850px;
+}
+.jingx .a2{
+	width:530px;
+	height: 150px;
+	margin:auto;
+	padding: 5px 0px 5px 5px;
+	background: linear-gradient(135deg,#a1c2ff,#d394ff);
+}
+.jingx .a3 {
+	width:530px;
+	height:50px;
+	margin:10px auto;
+}
+.jingx .a3 a{
+	margin:10px auto;
+	padding:10px 30px;
+}
+.wear{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:1750px;
+}
+.wear1{
+	margin:0px auto;
+	text-align:center;
+	width:200px;
+	height:70px;
+}
+.wear .yuanl{
+	
+	float:left;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	width:240px;
+	height:400px;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+.wear .yuanr{
+	float:right;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	width:240px;
+	height:400px;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+.wan{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:1600px;
+}
+.wan1{
+	margin:0px auto;
+	text-align:center;
+	width:150px;
+	height:70px;
+	
+}
+.wan .yuanl{
+	
+	float:left;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	width:240px;
+	height:360px;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+.wan .yuanr{
+	float:right;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	width:240px;
+	height:360px;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+.le{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:1400px;
+}
+.le1{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:70px;
+}
+.le .yuanl{
+	
+	float:left;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	width:240px;
+	height:300px;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+.le .yuanr{
+	float:right;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	width:240px;
+	height:300px;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+.zhuang{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:1670px;
+}
+.zhuang1{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:100px;
+}
+.zhuang2{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:520px;
+}
+.zhuang2 .zhuangs{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:250px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background: linear-gradient(135deg,#9ce1ff,#5db9ea);
+}
+.zhuang2 .zhuangx{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:270px;
+}
+.zhuangx p{
+	margin:10px 0px 0px 0px;
+	font-size: 12px;
+}
+.zhuangx .tp1{
+	margin: 0px 0px;
+}
+.zuo{
+	float: left;
+	margin:-23px 0px 0px 0px;
+	text-align:center;
+	width:250px;
+	height:250px;
+}
+.you{
+	float:right;
+	margin:0px auto;
+	text-align:center;
+	width:240px;
+	height:250px;
+}
+.you p{
+	width:240px;
+	margin: 0px 0px;
+	font-size:21px;
+	color: floralwhite;
+}
+.you p1{
+	width:240px;
+	float: left;
+	margin: 0px 0px;
+	font-size:16px;
+	color: floralwhite;
+}
+.zhuang3{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:520px;
+}
+.zhuang3 .zhuangs{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:250px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background: linear-gradient(135deg,#9ce1ff,#5db9ea);
+}
+.zhuang4{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:520px;
+}
+.zhuang4 .zhuangs{
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:250px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background: linear-gradient(135deg,#6a21bd,#7d26c1);
+}
+.cainxh{
+	margin: 0px auto;
+	text-align:center;
+	width:500px;
+	height:7450px;
+}
+.cainxh .red{
+	margin:0px auto;
+	text-align:center;
+	width:200px;
+	height:30px;
+	border-top-left-radius:60px;
+	border-bottom-left-radius:60px;
+}
+.cainxh .redz{
+	padding:5px 0px 0px 0px;
+	float: left;
+	width:100px;
+	height:30px;
+	background: #f00;
+	border-top-left-radius:60px;
+	border-bottom-left-radius:60px;
+}
+.cainxh .redy{
+	padding:5px 0px 0px 0px;
+	float: right;
+	width:100px;
+	height:30px;
+	background: gainsboro;
+	border-top-right-radius:60px;
+	border-bottom-right-radius:60px;
+}
+.cainxh .yuanl{
+	
+	float:left;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	background: #FFFAFA;
+	width:240px;
+	height:350px;
+}
+.cainxh .yuanr{
+	float:right;
+	border-radius: 15px;
+	margin:10px auto;
+	text-align: center;
+	background: #FFFAFA;
+	width:240px;
+	height:350px;
+}
+.chanp p{
+	width:240px;
+}
+.footer{
+	position: fixed;
+	left:31%;
+	bottom:0% ;
+	padding: 10px;
+	margin:0px auto;
+	text-align:center;
+	width:500px;
+	height:50px;
+	background: snow;
+}
+.footer table{
+	margin: auto;
+	width=500 ;
+	border=0 ;
+}
+.footer table tr{
+	margin: auto;
+	height=25;
+	text-align:center; 
+	align-items: auto;
+	width:500px;
+}
+
+.footer table tr td {
+	text-align:center; 
+	align-items: auto;
+	width:100px;
+}
+
+.footer p{
+	width: 100px;
+	height: 20px;
+	color: #999;
+}
